@@ -1,4 +1,4 @@
-import Stats from "../../components/home-c/Stats";
+import Stats from "../../components/home-c/stats";
 import Table from "../../components/ui/table";
 import { shiftTableDataSource } from "../../constants/data";
 
