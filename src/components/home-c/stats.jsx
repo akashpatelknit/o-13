@@ -8,7 +8,7 @@ const Stats = () => {
           <span className="text-4xl">9</span>
         </div>
         <div>
-          <p className="text-black font-medium">
+          <p className="text-black font-medium whitespace-nowrap">
             Monday, <br /> October 2027
           </p>
         </div>
