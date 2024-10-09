@@ -9,3 +9,30 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: white;
 }
+
+.customscrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+.customscrollbar::-webkit-scrollbar-track {
+  background: #d9d9d9;
+}
+
+.customscrollbar::-webkit-scrollbar-thumb {
+  background: blue;
+  border-radius: 20px;
+  height: 80px;
+}
+.customscrollbarRed::-webkit-scrollbar {
+  width: 4px;
+}
+
+.customscrollbarRed::-webkit-scrollbar-track {
+  background: #d9d9d9;
+}
+
+.customscrollbarRed::-webkit-scrollbar-thumb {
+  background: #FF1919;
+  border-radius: 20px;
+  height: 80px;
+}

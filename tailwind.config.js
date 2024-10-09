@@ -5,8 +5,11 @@ export default {
     extend: {
       colors: {
         cardbg: "#F9F9F9",
+        muted: "rgba(28,28,28,.4)",
       },
     },
   },
-  plugins: [require("daisyui")],
+  // plugins: [require("daisyui")],
+  scrollbar: ["rounded"],
+  plugins: [],
 };

@@ -57,19 +57,19 @@ const Devices = () => {
           <div className="min-h-[50px] h-full border-l"></div>
         </div>
         <div className="flex gap-3 w-full justify-end items-end">
-          <button className="btn bg-[#0043FF] border-none text-white px-5">
+          <button className="btn bg-[#0043FF] border-none text-white px-5  h-14 rounded-xl">
             Assign Device
           </button>
           <div className="min-h-[30px] border-l mb-2"></div>
-          <button className="btn bg-[#0043FF] border-none text-white px-5">
+          <button className="btn bg-[#0043FF] border-none text-white px-5 h-14 rounded-xl">
             Add Users
           </button>
           <div className="min-h-[30px] border-l mb-2"></div>
-          <button className="btn bg-[#0043FF] border-none text-white px-5">
+          <button className="btn bg-[#0043FF] border-none text-white px-5 h-14 rounded-xl">
             Schedule Maintenance
           </button>
           <div className="min-h-[30px] border-l mb-2"></div>
-          <button className="btn bg-[#C8C7CC] border-none text-white px-5">
+          <button className="btn bg-[#C8C7CC] border-none text-white px-5 h-14 rounded-xl">
             Remove Users
           </button>
         </div>

@@ -150,7 +150,104 @@ const Reports = () => {
               </button>
             </div>
           </div>
-          <div></div>
+          <div className="flex flex-col gap-3">
+            <div className="grid grid-cols-2 px-5 py-2 border-b">
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Water Quality
+              </label>
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Uptime
+              </label>
+            </div>
+            <div className="grid grid-cols-2 px-5 py-2 border-b">
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Air Quality
+              </label>
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Battery Health
+              </label>
+            </div>
+            <div className="grid grid-cols-2 px-5 py-2 border-b">
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Body Temperature
+              </label>
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Connectivity Status
+              </label>
+            </div>
+            <div className="grid grid-cols-2 px-5 py-2 border-b">
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Fatigue Level
+              </label>
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Sensor Readings
+              </label>
+            </div>
+            <div className="grid grid-cols-2 px-5 py-2 border-b">
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Active Time
+              </label>
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Maintenance Device
+              </label>
+            </div>
+            <div className="grid grid-cols-2 px-5 py-2">
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Alerts Generated
+              </label>
+              <label className="flex items-center gap-3 text-[#5E5E5E] font-medium">
+                <input
+                  type="checkbox"
+                  className="accent-[#0043FF] w-5 h-5 text-[#777777] border-2 border-gray-300"
+                />
+                Device Alerts
+              </label>
+            </div>
+          </div>
         </div>
       </div>
     </div>
